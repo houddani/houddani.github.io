@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="sobre-mi.html">Sobre mi</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sobre mi</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+  <div class="bg-image"></div>
+
+
+    <div class="bg-textproyecto">
+      <h2>Black Lives Matter</h2>
+         <img id="blm" src="https://cdn.britannica.com/70/217070-050-250699A2/Black-Lives-Matter-protest-signs-Boston-Massachusetts-May-2020.jpg">
+         <img id="blm" src="https://www.pewresearch.org/wp-content/uploads/2020/09/FT_20.09.15_BLMSupport_feature.jpg">
+
+     <h2>LIFTDance</h2>
+         <img id="dance" src="https://images.pexels.com/photos/4226397/pexels-photo-4226397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+         <img id="dance" src="https://images.squarespace-cdn.com/content/v1/629a7dbd2e5e31007f1d9546/72a4e1c7-b351-4942-b658-f44a590e83e1/1032_DG_EDD_Company_1715_FN+copy.jpg">
+   </div>
+
+</body>
+</html>
